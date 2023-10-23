@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    image: ferprojekt/php:8.1
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/
