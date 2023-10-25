@@ -76,11 +76,11 @@ class Addon extends Model implements Contract
     use InteractsWithProxy;
 
     /**
-     * Get the proxied contract.
+     * Get the proxied interface.
      *
      * @return string
      */
-    public static function getProxiedContract(): string
+    public static function getProxiedInterface(): string
     {
         return Contract::class;
     }
